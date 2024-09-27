@@ -236,7 +236,7 @@ class _SplashScreenState extends State<SplashScreen>
   //4. 하단 원모양 시작 버튼
   Widget buildMovingCircle() {
     return Positioned(
-      right: 50,
+      right: 60,
       bottom: 50,
       child: SlideTransition(
         position: _bottomCircleMove,
